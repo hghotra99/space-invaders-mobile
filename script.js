@@ -274,6 +274,23 @@ resetGame();
 
 });
 
+// Tap/click anywhere to restart
+
+document.addEventListener(
+
+"pointerdown",
+
+()=>{
+
+if(gameOver){
+
+resetGame();
+
+}
+
+}
+
+);
 
 document.addEventListener(
 
